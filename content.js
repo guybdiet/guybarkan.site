@@ -21,7 +21,7 @@ window.SITE_CONTENT = {
   // אפשר להדביק כאן קישור רגיל של YouTube או Shorts
   videos: [
     {
-      title: "מי אני",
+      title: "קצת על הסדנה",
       url: "https://youtu.be/dq96wMsn3pQ?si=PPCSk5ayDnufoaHP"
     },
     {
@@ -29,7 +29,7 @@ window.SITE_CONTENT = {
       url: "https://youtube.com/shorts/UkfE7h2BQug?si=ZX6mHZY1BV35cy8J"
     },
     {
-      title: "עוד קצת על הדרך",
+      title: "מי אני?",
       url: "https://youtu.be/_IR37PYpsVg?si=2oJePe3UhlbbFpyG"
     }
   ],
