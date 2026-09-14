@@ -144,7 +144,7 @@ a{color:inherit}
 
 .video-grid{
   display:grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:repeat(3,1fr);
   gap:20px;
 }
 .video-card{
@@ -209,7 +209,7 @@ a{color:inherit}
 .workshop-side p{margin:0 0 28px}
 
 .contact{
-  background:var(--violet);
+  background:var(--black);
   color:white;
   padding:90px 0 74px;
 }
@@ -231,7 +231,7 @@ a{color:inherit}
   background:white;color:var(--black)
 }
 .footer{
-  background:var(--violet);
+  background:var(--black);
   color:white;
   padding:0 0 28px;
   font-size:13px;
@@ -251,4 +251,59 @@ a{color:inherit}
   .band,.section{padding:72px 0}
   .workshop-card{padding:34px 24px}
   .contact{padding:72px 0 58px}
+}
+
+
+/* --- September 2026 refinements --- */
+.brandline-logo-only{
+  justify-content:flex-start;
+  direction:ltr;
+}
+
+.social-circle{
+  width:54px;
+  height:54px;
+  min-width:54px;
+  padding:0;
+  border:none;
+  border-radius:50%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  transition:transform .2s ease, filter .2s ease;
+}
+
+.social-circle:hover{
+  transform:translateY(-2px) scale(1.04);
+  filter:brightness(.96);
+}
+
+.social-circle svg{
+  width:29px;
+  height:29px;
+  fill:#fff;
+}
+
+.whatsapp-circle{
+  background:#25D366;
+}
+
+.facebook-circle{
+  background:#1877F2;
+}
+
+.contact-calendly{
+  border-color:#fff !important;
+  color:#fff !important;
+  min-width:150px;
+}
+
+.contact .contact-calendly:hover{
+  background:#fff;
+  color:var(--black) !important;
+}
+
+@media(max-width:850px){
+  .video-grid{grid-template-columns:1fr}
 }

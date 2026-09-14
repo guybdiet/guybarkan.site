@@ -27,6 +27,10 @@ window.SITE_CONTENT = {
     {
       title: "דקה על שינוי",
       url: "https://youtube.com/shorts/UkfE7h2BQug?si=ZX6mHZY1BV35cy8J"
+    },
+    {
+      title: "עוד קצת על הדרך",
+      url: "https://youtu.be/_IR37PYpsVg?si=2oJePe3UhlbbFpyG"
     }
   ],
 
