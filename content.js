@@ -39,7 +39,7 @@ window.SITE_CONTENT = {
   // enabled: true = מציגים, enabled: false = מסתירים
   banner: {
     enabled: true,
-    image: "שנה טובה גיא 2026.png",
+    image: "shanatova2026.png",
     alt: "הודעה מיוחדת",
     link: ""
   },
