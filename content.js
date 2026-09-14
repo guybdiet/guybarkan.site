@@ -38,8 +38,8 @@ window.SITE_CONTENT = {
   // באנר מתחלף - שנה טובה, הצעה מיוחדת, הודעה וכו'
   // enabled: true = מציגים, enabled: false = מסתירים
   banner: {
-    enabled: false,
-    image: "assets/banner.jpg",
+    enabled: true,
+    image: "שנה טובה גיא 2026.png",
     alt: "הודעה מיוחדת",
     link: ""
   },
