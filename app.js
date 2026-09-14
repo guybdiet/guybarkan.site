@@ -65,3 +65,28 @@ setLink("contactFacebook",C.facebook);
 setLink("contactCalendly",C.calendly);
 
 $("footerText").textContent=C.footerText;
+
+
+/* Optional promotional banner */
+if (C.banner) {
+  const section = $("promoBanner");
+  const image = $("promoBannerImage");
+  const link = $("promoBannerLink");
+
+  if (C.banner.enabled && C.banner.image) {
+    image.src = C.banner.image;
+    image.alt = C.banner.alt || "הודעה מיוחדת";
+
+    if (C.banner.link) {
+      link.href = C.banner.link;
+      link.target = "_blank";
+      link.rel = "noopener";
+    } else {
+      link.removeAttribute("href");
+      link.removeAttribute("target");
+      link.style.cursor = "default";
+    }
+
+    section.hidden = false;
+  }
+}
