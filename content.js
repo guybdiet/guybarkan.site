@@ -38,7 +38,7 @@ window.SITE_CONTENT = {
   // באנר מתחלף - שנה טובה, הצעה מיוחדת, הודעה וכו'
   // enabled: true = מציגים, enabled: false = מסתירים
   banner: {
-    enabled: true,
+    enabled: false,
     image: "shanatova2026.png",
     alt: "הודעה מיוחדת",
     link: ""
